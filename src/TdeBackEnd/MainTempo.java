@@ -18,7 +18,6 @@ public class MainTempo {
             }
         } while (hh < 0 || hh >= 24);
 
-        // Validação de Minutos (0 a 59)
         do {
             System.out.print("Digite um número para minutos (de 0 a 59):\t");
             mm = insereTempo.nextInt();
